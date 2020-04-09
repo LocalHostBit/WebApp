@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Video App</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="src/css/home.css" />
+  <link rel="stylesheet" href="src/css/modal.css" />
+</head>
+<body>
+  <section class="home" id="home">
+    <div class="home-sidebar">
+      <div class="sidebar">
+        <div class="logo">
+          <figure class="logo-image">
+            <img src="src/images/videoapp-javascript.png" alt="La mejor App para ver pelis y series online"/>
+          </figure>
+        </div>
+        <div class="sidebarPlaylist">
+          <h2 class="sidebarPlaylist-title">Series y <span class="btn warning">Películas</span> </h2>
+          <ol class="myPlaylist">
+            <li class="myPlaylist-item">
+              <a href="#">
+                <span>
+                  Breaking Bad
+                </span>
+              </a>
+            </li>
+            <li class="myPlaylist-item">
+              <a href="#">
+                <span>
+                  Game of Thrones
+                </span>
+              </a>
+            </li>
+            <li class="myPlaylist-item">
+              <a href="#">
+                <span>
+                  La casa de Papel
+                </span>
+              </a>
+            </li>
+            <li class="myPlaylist-item">
+              <a href="#">
+                <span>
+                  Mr.Robot
+                </span>
+              </a>
+            </li>
+            <li class="myPlaylist-item">
+              <a href="#">
+                <span>
+                  Black Mirror
+                </span>
+              </a>
+            </li>
+            <li class="myPlaylist-item">
+              <a href="#">
+                <span>
+                  Chernobil
+                </span>
+              </a>
+            </li>
+            <li class="myPlaylist-item">
+              <a href="#">
+                <span>
+                  Fargo
+                </span>
+              </a>
+            </li>
+            <li class="myPlaylist-item">
+              <a href="#">
+                <span>
+                  The Wire
+                </span>
+              </a>
+            </li>
+            <li class="myPlaylist-item">
+              <a href="#">
+                <span>
+                  Los Soprano
+                </span>
+              </a>
+            </li>
+          </ol>
+        </div>
+        <div class="sidebarPlaylist">
+          <h2 class="sidebarPlaylist-title">Amigos Conectados</h2>
+          <ul class="playlistFriends">
+            <li class="playlistFriends-item">
+              <a href="#">
+                <img src="src/images/covers/echame-la-culpa.jpg" alt="echame la culpa" />
+                <span>
+                  Evita
+                </span>
+              </a>
+            </li>
+            <li class="playlistFriends-item">
+              <a href="#">
+                <img src="src/images/covers/echame-la-culpa.jpg" alt="echame la culpa" />
+                <span>
+                  Evita
+                </span>
+              </a>
+            </li>
+            <li class="playlistFriends-item">
+              <a href="#">
+                <img src="src/images/covers/echame-la-culpa.jpg" alt="echame la culpa" />
+                <span>
+                  Evita
+                </span>
+              </a>
+            </li>
+            <li class="playlistFriends-item">
+              <a href="#">
+                <img src="src/images/covers/echame-la-culpa.jpg" alt="echame la culpa" />
+                <span>
+                  Evita
+                </span>
+              </a>
+            </li>
+            <li class="playlistFriends-item">
+              <a href="#">
+                <img src="src/images/covers/echame-la-culpa.jpg" alt="echame la culpa" />
+                <span>
+                  Evita
+                </span>
+              </a>
+            </li>
+            <li class="playlistFriends-item">
+              <a href="#">
+                <img src="src/images/covers/echame-la-culpa.jpg" alt="echame la culpa" />
+                <span>
+                  Evita
+                </span>
+              </a>
+            </li>
+            <li class="playlistFriends-item">
+              <a href="#">
+                <img src="src/images/covers/echame-la-culpa.jpg" alt="echame la culpa" />
+                <span>
+                  Evita
+                </span>
+              </a>
+            </li>
+            <li class="playlistFriends-item">
+              <a href="#">
+                <img src="src/images/covers/echame-la-culpa.jpg" alt="echame la culpa" />
+                <span>
+                  Evita
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+    <div class="home-primary">
+      <!-- <section class="primary"> -->
+        <div class="primary-search">
+          <form action="" class="search" id="form">
+            <input type="text" name="name" placeholder="Busca aquí tu película o serie favorita"/>
+          </form>
+        </div>
+        <div class="primary-user">
+          <div class="user">
+            <p>
+              <img src="src/images/covers/gorillaz.jpg" alt=""/>
+              <span> Evita</span>
+            </p>
+          </div>
+        </div>
+        <div class="primary-list">
+          <div class="primaryPlaylist">
+            <h3 class="primaryPlaylist-topic">Películas que revientan timpanos, estamos hablando de:</h3>
+            <h2 class="primaryPlaylist-title">Acción</h2>
+            <div class="primaryPlaylist-list" id="action">
+              <img src="src/images/loader.gif" width="50" height="50" alt="">
+            </div>
+          </div>
+          <div class="primaryPlaylist">
+            <h3 class="primaryPlaylist-topic">Si quieres quedarte con ese dolor de garganta de llorar y no querer, entonces:</h3>
+            <h2 class="primaryPlaylist-title">Drama</h2>
+            <div class="primaryPlaylist-list" id="drama">
+              <img src="src/images/loader.gif" width="50" height="50" alt="">
+        </div>
+          </div>
+          <div class="primaryPlaylist">
+            <h3 class="primaryPlaylist-topic">Si aún te has quedado atascad@ en tu Infancia, te recomendamos:</h3>
+            <h2 class="primaryPlaylist-title">Animación</h2>
+            <div class="primaryPlaylist-list" id="animation">
+              <img src="src/images/loader.gif" width="50" height="50" alt="">
+            </div>
+          </div>
+        </div>
+      <!-- </section> -->
+    </div>
+    <div class="home-featuring" id="featuring">
+
+    </div>
+  </section>
+  <div class="overlay" id="overlay">
+  </div>
+  <div class="modal" id="modal">
+    <h1>Título de pelicula</h1>
+    <div class="modal-content">
+      <img src="" alt="" width="170" height="256">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione impedit maiores enim alias ex accusantium quasi cum autem, nam, voluptas tenetur laudantium quod! Odit voluptate illo, voluptas vel quia, quae.</p>
+    </div>
+    <div class="modal-buttons">
+      <button class="modal-btn primary" id="hide-modal">Cerrar</button>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="src/js/home.js"></script>
+</body>
+</html>
